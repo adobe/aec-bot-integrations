@@ -1,0 +1,7 @@
+.bot-button-hide:before {
+    content: 'Hide bot';
+}
+
+.bot-button-show:before {
+    content: 'Show bot';
+}

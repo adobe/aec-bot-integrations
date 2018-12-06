@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-10-12T14:42:06.048-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/bot-demo/settings/wcm/templates/bot-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Bot page"
+        sling:resourceType="bot-demo/components/structure/bot-page"
+        botid="SV-Webchat"
+        secret="k73GzVcNIeI.cwA.AZU.ePdy72-5QWCdR5cvx8_9yrdeDott_3KMKDa9VVKG0eo"
+        userid="anonymous"/>
+</jcr:root>
