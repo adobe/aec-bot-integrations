@@ -13,9 +13,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/register": "^7.0.0",
     "chai": "^4.2.0",
-    "mocha": "^5.2.0",
-    "webpack": "4.17.1",
-    "webpack-command": "0.4.1"
+    "mocha": "^5.2.0"
   },
   "dependencies": {
     "dotenv": "^6.0.0",
