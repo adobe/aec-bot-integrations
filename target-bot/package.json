@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "BotFramework and Adobe Target Integration",
     "author": "Microsoft Bot Builder Yeoman Generator",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "main": "index.js",
     "scripts": {
         "start": "node ./index.js",

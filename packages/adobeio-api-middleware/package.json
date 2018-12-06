@@ -2,6 +2,7 @@
   "name": "adobeio-api-middleware",
   "version": "0.1.0",
   "private": true,
+  "license": "Apache-2.0",
   "main": "dist/ApiManager.js",
   "scripts": {
     "build": "npx babel src/*.js -d dist",
