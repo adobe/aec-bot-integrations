@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "10"
+cache: npm
+env:
+  - TEST_DIR=packages/adobeio-api-middleware
+  - TEST_DIR=packages/acs-api-wrapper
+  - TEST_DIR=target-bot
+  - TEST_DIR=campaign_bot
+script: cd $TEST_DIR && npm install && npm test
