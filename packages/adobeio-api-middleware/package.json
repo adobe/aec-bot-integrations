@@ -6,7 +6,7 @@
   "main": "dist/ApiManager.js",
   "scripts": {
     "build": "npx babel src/*.js -d dist",
-    "test": "mocha --require @babel/register"
+    "test": "npm run build && mocha --require @babel/register"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
