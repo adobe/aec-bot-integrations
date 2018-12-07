@@ -16,6 +16,7 @@
         "botbuilder-dialogs": "^4.1.7",
         "botframework-config": "^4.1.7",
         "dotenv": "^6.2.0",
+        "request": "^2.88.0",
         "request-promise": "^4.2.2",
         "restify": "^6.3.4"
     },
