@@ -29,7 +29,11 @@ if (!process.env.PKEY) {
   console.warn('To run tests, have an integration details available using .env');
   runTest = false;
 } else {
-  console.log('Pub Key:',process.env.PUBKEY);
+  console.log('Pub Key:',cleanKey(process.env.PUBKEY));
+}
+
+function cleanKey(key) {
+  return key.replace(/\\n/g,"\n");
 }
 
 function getAPI(opts) {
@@ -38,7 +42,7 @@ function getAPI(opts) {
     technical_account_id : process.env.ACCOUNT_ID,
     org_id : process.env.ORG_ID,
     client_secret : process.env.SECRET,
-    private_key : process.env.PKEY,
+    private_key : cleanKey(process.env.PKEY),
     expire_after: DEFAULT_EXPIRE
   },opts));
 }
@@ -63,7 +67,7 @@ describe('JWT Token', _ => {
   if (runTest) {
     const api = getAPI({scopes : [TEST_SCOPE]});
     const token = api.getJWTToken();
-    const decoded = jwt.verify(token,process.env.PUBKEY, { algorithm: 'RS256' });
+    const decoded = jwt.verify(token,cleanKey(process.env.PUBKEY), { algorithm: 'RS256' });
     it('has scope ', done => {
       expect(decoded[`${api.endpoint}/s/${TEST_SCOPE}`]).to.be.true;
       done();
