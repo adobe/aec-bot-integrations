@@ -28,8 +28,6 @@ dotenv.config();
 if (!process.env.PKEY) {
   console.warn('To run tests, have an integration details available using .env');
   runTest = false;
-} else {
-  console.log('Pub Key:',cleanKey(process.env.PUBKEY));
 }
 
 function cleanKey(key) {
