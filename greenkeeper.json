@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "campaign-bot/package.json",
+        "packages/adobeio-api-middleware/package.json",
+        "target-bot/package.json"
+      ]
+    }
+  }
+}
