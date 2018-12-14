@@ -17,18 +17,19 @@ const { BotFrameworkAdapter, MemoryStorage, ConversationState, UserState } = req
 const { BotConfiguration } = require('botframework-config');
 const { ChangePhoneBot } = require('./bot');
 
-const ACSApi = require("../packages/acs-api-wrapper/dist/ACSApi.js").default;
+const ACSApi = require('../packages/adobeio-api-middleware/dist/ACSApi.js').default;
 
 const ENV_FILE = path.join(__dirname, '.env');
-const env = require('dotenv').config({path: ENV_FILE});
+
+require('dotenv').config({ path: ENV_FILE });
 
 const DEV_ENVIRONMENT = 'development';
 
 const BOT_CONFIGURATION = (process.env.NODE_ENV || DEV_ENVIRONMENT);
 
 let server = restify.createServer();
-server.listen(process.env.port || process.env.PORT || 3978, function () {
-    console.log(`\n${server.name} listening to ${server.url}`);
+server.listen(process.env.port || process.env.PORT || 3978, function() {
+    console.log(`\n${ server.name } listening to ${ server.url }`);
 });
 
 const BOT_FILE = path.join(__dirname, (process.env.botFilePath || ''));
@@ -53,19 +54,19 @@ const conversationState = new ConversationState(memoryStorage);
 const userState = new UserState(memoryStorage);
 
 const acs = new ACSApi({
-  api_key : process.env.APIKEY,
-  technical_account_id : process.env.ACCOUNT_ID,
-  org_id : process.env.ORG_ID,
-  client_secret : process.env.SECRET,
-  private_key : process.env.PKEY,
-  tenant : process.env.TENANT,
-  transactionalApi : process.env.TRANSACTIONAL
+    api_key: process.env.APIKEY,
+    technical_account_id: process.env.ACCOUNT_ID,
+    org_id: process.env.ORG_ID,
+    client_secret: process.env.SECRET,
+    private_key: process.env.PKEY,
+    tenant: process.env.TENANT,
+    transactionalApi: process.env.TRANSACTIONAL
 });
 
-const phoneBot = new ChangePhoneBot(conversationState,userState,acs);
+const phoneBot = new ChangePhoneBot(conversationState, userState, acs);
 
 adapter.onTurnError = async (context, error) => {
-    console.error(`\n [onTurnError]: ${error}`);
+    console.error(`\n [onTurnError]: ${ error }`);
     context.sendActivity(`Oops. Something went wrong!`);
     await conversationState.load(context);
     await conversationState.clear(context);
@@ -77,4 +78,3 @@ server.post('/api/messages', (req, res) => {
         await phoneBot.onTurn(context);
     });
 });
-

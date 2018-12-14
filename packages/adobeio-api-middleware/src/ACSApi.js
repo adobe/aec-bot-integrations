@@ -10,8 +10,7 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
-import APIManager from 'adobeio-api-middleware';
-import request from 'request-promise';
+import APIManager from './ApiManager';
 
 const CAMPAIGN_SCOPE = 'ent_campaign_sdk';
 const PROFILE_API = '/profileAndServices/profile';
