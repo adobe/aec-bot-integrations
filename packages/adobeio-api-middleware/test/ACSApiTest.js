@@ -12,9 +12,8 @@ governing permissions and limitations under the License.
 
 import ACSApi from '../dist/ACSApi';
 import { TEST_DATA } from './ProfileSample';
-import { TEST_KEY } from './KeySample';
 import Scope from './ACSTestScope';
-import nock from 'nock';
+import { TEST_CONNECTION } from "./KeySample";
 
 import { expect, assert } from 'chai';
 
@@ -31,11 +30,11 @@ function getACS() {
     scope = scopeFactory.getTokenScope();
 
     const acs = new ACSApi({
-      api_key : DUMMY_API_KEY,
-      technical_account_id : DUMMY_VALUE,
-      org_id : DUMMY_VALUE,
-      client_secret : DUMMY_VALUE,
-      private_key : TEST_KEY,
+      api_key : TEST_CONNECTION.api_key,
+      technical_account_id : TEST_CONNECTION.technical_account_id,
+      org_id : TEST_CONNECTION.org_id,
+      client_secret : TEST_CONNECTION.client_secret,
+      private_key : TEST_CONNECTION.private_key,
       tenant : TEST_DATA.tenant,
       transactionalApi : TRANS_ID
     });
