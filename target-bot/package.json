@@ -10,7 +10,7 @@
         "watch": "nodemon ./index.js"
     },
     "dependencies": {
-        "@adobe/target-node-client": "^0.14.1",
+        "@adobe/target-node-client": "^0.15.0",
         "ajv": "^6.6.1",
         "botbuilder": "^4.1.7",
         "botbuilder-dialogs": "^4.1.7",
