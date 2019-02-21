@@ -16,7 +16,7 @@
         "botframework-config": "^4.0.5",
         "dotenv": "^6.0.0",
         "request-promise": "^4.2.2",
-        "restify": "^7.3.0"
+        "restify": "^8.0.0"
     },
     "devDependencies": {
         "@types/node": "11.9.4",
