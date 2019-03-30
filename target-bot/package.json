@@ -21,7 +21,7 @@
         "restify": "^8.0.0"
     },
     "devDependencies": {
-        "@types/node": "11.12.0",
+        "@types/node": "11.12.1",
         "@types/restify": "7.2.9",
         "chai": "^4.2.0",
         "eslint": "^5.9.0",
