@@ -19,7 +19,7 @@
         "restify": "^8.0.0"
     },
     "devDependencies": {
-        "@types/node": "11.13.6",
+        "@types/node": "11.13.8",
         "@types/restify": "7.2.9",
         "chai": "^4.2.0",
         "eslint": "^5.6.0",
