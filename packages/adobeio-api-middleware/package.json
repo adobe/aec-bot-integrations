@@ -10,18 +10,18 @@
     "test-only": "mocha --require @babel/register"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "@babel/register": "^7.0.0",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
     "chai": "^4.2.0",
     "mocha": "^6.0.0"
   },
   "dependencies": {
     "dotenv": "^8.0.0",
-    "jsonwebtoken": "^8.3.0",
-    "nock": "^10.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "nock": "^10.0.6",
     "request": "^2.88.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.4"
   }
 }
