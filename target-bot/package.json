@@ -11,27 +11,27 @@
     },
     "dependencies": {
         "@adobe/target-node-client": "^0.15.0",
-        "ajv": "^6.6.1",
-        "botbuilder": "^4.3.2",
-        "botbuilder-dialogs": "^4.1.7",
-        "botframework-config": "^4.1.7",
+        "ajv": "^6.10.0",
+        "botbuilder": "^4.4.0",
+        "botbuilder-dialogs": "^4.4.0",
+        "botframework-config": "^4.4.0",
         "dotenv": "^8.0.0",
         "request": "^2.88.0",
-        "request-promise": "^4.2.2",
-        "restify": "^8.0.0"
+        "request-promise": "^4.2.4",
+        "restify": "^8.3.3"
     },
     "devDependencies": {
         "@types/node": "12.0.1",
         "@types/restify": "7.2.9",
         "chai": "^4.2.0",
-        "eslint": "^5.9.0",
+        "eslint": "^5.16.0",
         "eslint-config-standard": "^12.0.0",
-        "eslint-plugin-import": "^2.14.0",
-        "eslint-plugin-node": "^9.0.0",
-        "eslint-plugin-promise": "^4.0.1",
+        "eslint-plugin-import": "^2.17.3",
+        "eslint-plugin-node": "^9.1.0",
+        "eslint-plugin-promise": "^4.1.1",
         "eslint-plugin-standard": "^4.0.0",
-        "mocha": "^6.0.0",
-        "nodemon": "^1.18.7"
+        "mocha": "^6.1.4",
+        "nodemon": "^1.19.1"
     },
     "repository": {
         "type": "git",
