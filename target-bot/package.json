@@ -24,7 +24,7 @@
         "@types/node": "12.0.1",
         "@types/restify": "7.2.9",
         "chai": "^4.2.0",
-        "eslint": "^5.16.0",
+        "eslint": "^6.0.0",
         "eslint-config-standard": "^12.0.0",
         "eslint-plugin-import": "^2.17.3",
         "eslint-plugin-node": "^9.1.0",
