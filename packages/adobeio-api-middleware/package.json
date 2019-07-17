@@ -20,6 +20,7 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.14",
     "nock": "^10.0.6",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
