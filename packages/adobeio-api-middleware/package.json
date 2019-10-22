@@ -21,7 +21,7 @@
     "dotenv": "^8.1.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
-    "nock": "^11.1.0",
+    "nock": "^11.5.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   }
