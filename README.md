@@ -7,14 +7,14 @@ These are integration examples for building integrations between Adobe Experienc
 
 The guidance demonstrates the following scenarios:
 
-1. [Adobe Experience Manager](aem-chatbot-demo): How to add a chatbot to a Adobe Experience Manager webpage.
+1. [Adobe Experience Manager](aem-chatbot-demo): How to add a chatbot to an Adobe Experience Manager webpage.
 2. [Adobe Campaigns Standard](campaigns-bot): How to integrate a chatbot with profiles from Adobe Campaigns Standard.
     - Send a transactional message via email or text from a bot
     - Query an Adobe Campaigns user profile from a bot
     - Update an Adobe Campaigns user profile from a bot
-3. [Adobe Target](target-bot): Use Adobe Target to do A/B testing within a chatbot trying out different converstational messages and paths for different users.
+3. [Adobe Target](target-bot): Use Adobe Target to do A/B testing within a chatbot trying out different conversational messages and paths for different users.
 
-There are many other wasy to integrate Adobe Experience Cloud Services with the Microsoft Bot Builder Framework that we will publish via this repository.  The guidance and examples here have been built from a collaboration between Microsoft and Adobe and represent architectural recommendaions.  As all use cases are unique, it is important to understand and evaluate the guidance based on your specific needs.  Please try it out, fork it, make pull request, and give us your feedback!
+There are many other ways to integrate Adobe Experience Cloud Services with the Microsoft Bot Builder Framework that we will publish via this repository.  The guidance and examples here have been built from a collaboration between Microsoft and Adobe and represent architectural recommendations.  As all use cases are unique, it is important to understand and evaluate the guidance based on your specific needs.  Please try it out, fork it, make a pull request, and give us your feedback!
 
 # Installation
 
