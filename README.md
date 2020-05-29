@@ -1,6 +1,6 @@
 # Adobe Experience Cloud Microsoft Bot Framework Integrations
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/adobe/aec-bot-integrations.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.com/adobe/aec-bot-integrations.svg?branch=master)](https://travis-ci.com/adobe/aec-bot-integrations)
 
 These are integration examples for building integrations between Adobe Experience Cloud services and the [Microsoft Bot Framework](https://dev.botframework.com/).  The Microsoft Bot Framework is a multi-channel framework to build conversational user experiences wherever users are, including email, text/SMS, websites, Facebook Messenger, Microsoft Teams, Slack, and Skype.
