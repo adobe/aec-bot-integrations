@@ -10,13 +10,6 @@ const TEST_PROFILE_RESPONSE = { content:
       TEST_PKEY,
       age: 0,
       birthDate: '',
-      blackList: false,
-      blackListEmail: false,
-      blackListFax: false,
-      blackListMobile: false,
-      blackListPhone: false,
-      blackListPostalMail: false,
-      blackListPushnotification: false,
       created: '2018-08-01 22:43:48.892Z',
       cryptedId:
         'xxx-cryptedId-xxx',
