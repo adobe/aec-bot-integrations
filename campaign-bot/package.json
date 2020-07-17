@@ -10,7 +10,7 @@
         "watch": "nodemon ./index.js"
     },
     "dependencies": {
-        "ajv": "^6.10.2",
+        "ajv": "^6.12.3",
         "botbuilder": "^4.6.0",
         "botbuilder-dialogs": "^4.6.0",
         "botframework-config": "^4.6.0",
