@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "@adobe/target-node-client": "^0.15.2",
-        "ajv": "^6.10.2",
+        "ajv": "^6.12.3",
         "botbuilder": "^4.6.0",
         "botbuilder-dialogs": "^4.6.0",
         "botframework-config": "^4.6.0",
