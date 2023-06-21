@@ -18,7 +18,7 @@
         "lodash": "^4.17.15",
         "request": "^2.88.0",
         "request-promise": "^4.2.4",
-        "restify": "^8.4.0"
+        "restify": "^10.0.0"
     },
     "devDependencies": {
         "@types/node": "^14.0.0",
