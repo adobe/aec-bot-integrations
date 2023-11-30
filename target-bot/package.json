@@ -13,13 +13,13 @@
         "@adobe/target-node-client": "^0.15.2",
         "ajv": "^6.10.2",
         "botbuilder": "^4.6.0",
-        "botbuilder-dialogs": "^4.6.0",
+        "botbuilder-dialogs": "^4.7.0",
         "botframework-config": "^4.6.0",
         "dotenv": "^8.2.0",
         "lodash": "^4.17.15",
         "request": "^2.88.0",
         "request-promise": "^4.2.4",
-        "restify": "^8.4.0"
+        "restify": "^9.0.0"
     },
     "devDependencies": {
         "@types/node": "^14.0.0",
