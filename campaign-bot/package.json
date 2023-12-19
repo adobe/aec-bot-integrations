@@ -12,7 +12,7 @@
     "dependencies": {
         "ajv": "^6.10.2",
         "botbuilder": "^4.6.0",
-        "botbuilder-dialogs": "^4.6.0",
+        "botbuilder-dialogs": "^4.7.0",
         "botframework-config": "^4.6.0",
         "dotenv": "^8.2.0",
         "lodash": "^4.17.15",
